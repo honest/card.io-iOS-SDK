@@ -13,5 +13,5 @@ Pod::Spec.new do |spec|
   spec.source_files     = 'CardIO/*.h'
   spec.frameworks       = 'Accelerate', 'AVFoundation', 'AudioToolbox', 'CoreMedia', 'CoreVideo', 'MobileCoreServices', 'OpenGLES', 'QuartzCore', 'Security', 'UIKit'
   spec.libraries        = 'c++'
-  spec.vendored_libraries = 'CardIO/libCardIO.a', 'CardIO/libopencv_core.a', 'CardIO/libopencv_imgproc.a', 'CardIO/libopencv_calib3d', 'CardIO/libopencv_contrib', 'CardIO/libopencv_features2d', 'CardIO/libopencv_flann', 'CardIO/libopencv_highgui', 'CardIO/libopencv_legacy', 'CardIO/libopencv_ml', 'CardIO/libopencv_nonfree', 'CardIO/libopencv_objdetect', 'CardIO/libopencv_photo', 'CardIO/libopencv_stitching', 'CardIO/libopencv_video', 'CardIO/libopencv_videostab'
+  spec.vendored_libraries = 'CardIO/libCardIO.a', 'CardIO/libopencv_core.a', 'CardIO/libopencv_imgproc.a', 'CardIO/libopencv_calib3d.a', 'CardIO/libopencv_contrib.a', 'CardIO/libopencv_features2d.a', 'CardIO/libopencv_flann.a', 'CardIO/libopencv_highgui.a', 'CardIO/libopencv_legacy.a', 'CardIO/libopencv_ml.a', 'CardIO/libopencv_nonfree.a', 'CardIO/libopencv_objdetect.a', 'CardIO/libopencv_photo.a', 'CardIO/libopencv_stitching.a', 'CardIO/libopencv_video.a', 'CardIO/libopencv_videostab.a'
 end
